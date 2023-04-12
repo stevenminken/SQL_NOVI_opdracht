@@ -1,5 +1,5 @@
 # SQL_NOVI_opdracht
-
+```
 DROP TABLE IF EXISTS remote_controller;
 DROP TABLE IF EXISTS ci_module;
 DROP TABLE IF EXISTS television_wallbracket;
@@ -79,3 +79,4 @@ SELECT * FROM  television
 	JOIN remote_controller ON television.id = remote_controller.television_id
 	JOIN ci_module ON television.id = ci_module.television_id
 	JOIN wallbracket ON television.id = wallbracket.television_id;
+```
